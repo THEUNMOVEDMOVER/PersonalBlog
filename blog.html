@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+</head>
+<body>
+    <!--导航-->
+    <nav class="ui inverted attached segment m-padded-tb-mini">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">Blog</h2>
+                    <a href="#" class="m-item item m-mobile-hide"><i class="middle home icon"></i>首页</a>
+                    <a href="#" class="m-item item m-mobile-hide"><i class="middle idea icon"></i>分类</a>
+                    <a href="#" class="m-item item m-mobile-hide"><i class="middle tags icon"></i>标签</a>
+                    <a href="#" class="m-item item m-mobile-hide"><i class="middle clone icon"></i>归档</a>
+                    <a href="#" class="m-item item m-mobile-hide"><i class="middle info icon"></i>关于我</a>
+                    <div class="right m-item item m-mobile-hide">
+                        <div class="ui icon inverted transparent input">
+                            <input type="text" placeholder="Search...">
+                            <i class="search link icon"></i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+
+    </nav>
+
+    <!-- 中间内容 -->
+    <div class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            
+            <!-- 头部 -->
+            <div class="ui top attached segment">
+                <div class="ui horizontal link list">
+                                                
+                    <div class="item">
+                        <img src="./static/images/picture1.jpg" alt="" class="ui avatar image">
+                        <div class="content"><a href="#" class="header">梁定一</a></div>
+                    </div>
+
+                    <div class="item">
+                        <i class="calender icon"></i> 2023-01-03
+                    </div>
+
+                    <div class="item">
+                        <i class="eye icon"></i> 2342
+                    </div>
+
+                </div>
+            </div>
+            
+            
+            <!-- 图片区域 -->
+            <div class="ui attached segment">
+                <img src="./static/images/picture1.jpg" alt="" class="ui fluid rounded image image">
+            </div>
+
+            <!-- 内容区域 -->
+            <div class="ui attached padded segment">
+                <div class="ui right aligned basic segment">
+                    <div class="ui orange basic label">原创</div>
+                </div>
+
+                <h2 class="ui center aligned header">午夜后五分钟</h2>
+
+                <br>
+
+                <div id="content" class="m-padded-lr-responsive m-padded-tb-big">
+                    <h2>1</h2>
+                    <p>“战争进行到后期，指挥德国军队就像‘一个钢琴家要在一大群听众面前用一架又破又旧、走音跑调的钢琴演奏贝多芬的奏鸣曲’ ”</p>
+                    
+                    <h2>2</h2>
+                    <p>“......但后者接管的也是一艘正在下沉的破船。无论防守方的指挥官意志有多坚定，也无法凭三个阵容残破，连一辆坦克都没有的军抵挡苏方三个补给充足的集团军的向心突击“</p>
+                    
+                    <h2>3</h2>
+                    <p>“人们尊称他为大帝不是因为他最终赢得了胜利，而是因为他在逆境中也始终勇敢不屈。后世也不会通过我在早年的胜利来理解我，而是会通过我在最近几个月的挫折中所展现的坚韧来理解我”</p>
+                    
+                    <h2>4</h2>
+                    <p>”这是多么疯狂的一战啊！国防军已经五六次被打翻在地、奄奄一息，不仅面临着战场上的失败，还面临着它所代表的国家的毁灭，然而它却又一次从坟墓中爬了起来........它不仅仍然保持着它的使命感......在退出历史舞台的几个月之前，这支军队最后一次证明了它仍然懂得如何打‘运动战’ ”</p>
+                    
+                    <h2>5</h2>
+                    <p>“陷入一场绝望的战争而无法脱身的国防军正在向着他的坟墓前进“</p>
+
+                </div>
+
+                <!-- 标签 -->
+                <div class="m-padded-lr-responsive">
+                    <div class="ui basic teal left pointing label">方法论</div>
+                </div>
+
+                <!-- 赞赏 -->
+                <div class="ui center aligned basic segment">
+                    <button id="payButton" class="ui orange basic circular button">赞赏</button>
+                </div>
+                <div class="ui payQR flowing popup transition hidden">
+                    <div class="ui orange basic label">
+                        <div class="ui images" style="font-size: inherit !important">
+                            <div class="image">
+                                <img src="./static/images/wechat.png" alt="" class="ui rounded bordered image" style="width: 120px;">
+                                <div>支付宝</div>
+                            </div>
+                            <div class="image">
+                                <img src="./static/images/wechat.png" alt="" class="ui rounded bordered image" style="width: 120px;">
+                                <div>微信</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- 博客信息说明 -->
+            <div class="ui attached positive message">
+                <div class="ui middle aligned grid">
+
+                    <div class="eleven wide column">
+                        <ui class="list">
+                            <li>作者：梁定一（联系作者）</li>
+                            <li>发表时间:2023-01-06 22:59</li>
+                            <li>版权声明</li>
+                            <li>公众号转载：请在文末添加作者公众号二维码</li>
+                        </ui>
+                    </div>
+
+                    <div class="five wide column">
+                        <img src="./static/images/wechat.png" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 留言区 -->
+            <div class="ui bottom attached segment">
+                <!-- 留言区列表 -->
+                <div class="ui teal segment">
+                    <div class="ui comments">
+                        <h3 class="ui dividing header">Comments</h3>
+                        <div class="comment">
+                          <a class="avatar">
+                            <img src="./static/images/picture1.jpg">
+                          </a>
+                          <div class="content">
+                            <a class="author">Matt</a>
+                            <div class="metadata">
+                              <span class="date">Today at 5:42PM</span>
+                            </div>
+                            <div class="text">
+                              How artistic!
+                            </div>
+                            <div class="actions">
+                              <a class="reply">回复</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="avatar">
+                            <img src="./static/images/picture1.jpg">
+                          </a>
+                          <div class="content">
+                            <a class="author">Elliot Fu</a>
+                            <div class="metadata">
+                              <span class="date">Yesterday at 12:30AM</span>
+                            </div>
+                            <div class="text">
+                              <p>This has been very useful for my research. Thanks as well!</p>
+                            </div>
+                            <div class="actions">
+                              <a class="reply">回复</a>
+                            </div>
+                          </div>
+                          <div class="comments">
+                            <div class="comment">
+                              <a class="avatar">
+                                <img src="./static/images/picture1.jpg">
+                              </a>
+                              <div class="content">
+                                <a class="author">Jenny Hess</a>
+                                <div class="metadata">
+                                  <span class="date">Just now</span>
+                                </div>
+                                <div class="text">
+                                  Elliot you are always so right :)
+                                </div>
+                                <div class="actions">
+                                  <a class="reply">回复</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="avatar">
+                            <img src="./static/images/picture1.jpg">
+                          </a>
+                          <div class="content">
+                            <a class="author">Joe Henderson</a>
+                            <div class="metadata">
+                              <span class="date">5 days ago</span>
+                            </div>
+                            <div class="text">
+                              Dude, this is awesome. Thanks so much
+                            </div>
+                            <div class="actions">
+                              <a class="reply">回复</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- 提交留言区 -->
+                <div class="ui form">
+                    <div class="field">
+                        <textarea name="content" placeholder="请输入评论信息..."></textarea>
+                    </div>
+                    
+                    <div class="fields">
+                        
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="nickname" placeholder="姓名">
+                            </div>
+                        </div>
+
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="mail icon"></i>
+                                <input type="text" name="email" placeholder="邮箱">
+                            </div>
+                        </div>
+
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <button class="ui teal button m-mobile-wide"><i class="edit icon"></i>发布</button>
+                        </div>
+
+
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- 底部 -->
+    <footer class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+
+                <div class="three wide column">
+                    <div class="ui inverted link list">
+                        <div class="class item">
+                            <img src="./static/images/wechat.png" class="ui rounded image" alt="" style="width: 100px">
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">用户故事</a>
+                        <a href="#" class="item">用户故事</a>
+                        <a href="#" class="item">用户故事</a>
+                    </div>
+                </div>
+
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Twitter</a>
+                        <a href="#" class="item">Weibo</a>
+                        <a href="#" class="item">WeChat</a>
+                    </div>
+                </div>
+
+                <div class="seven wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">ChangHsin</h4>
+                    <p class="m-text-thin m-text-spaced m-opacity-mini">blablablalbalblablablabla</p>
+                </div>
+            
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-spaced m-opacity-tiny">CopyRight</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+    <script>
+        $('.menu.toggle').click( function(){
+            $('.m-item').toggleClass('m-mobile-hide');
+        }); 
+
+        $('#payButton').popup({
+            popup: $('.payQR.popup'),
+            on : 'click',
+            position: 'bottom center'
+        });
+    </script>
+</body>
+</html>
